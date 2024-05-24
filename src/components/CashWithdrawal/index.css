@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.card-container {
+  background-color: #150b3e;
+
+  width: 30vw;
+  border-radius: 10px;
+  padding: 20px;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+.letter {
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  text-align: center;
+  border-radius: 25px;
+  color: #7c3aed;
+}
+.name {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: 400;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+}
+.para {
+  padding-right: 180px;
+  padding-left: 20px;
+  color: #585076;
+  font-size: 17px;
+  font-weight: 500;
+}
+.money {
+  color: #d4d2db;
+  font-size: 25px;
+  font-weight: 500;
+}
+.rupees {
+  color: #585076;
+  font-size: 13px;
+}
+.withdraw-container {
+  padding-left: 20px;
+}
+.heading {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: 500;
+}
+.para-1 {
+  color: #585076;
+  font-size: 17px;
+  font-weight: 500;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
